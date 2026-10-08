@@ -730,39 +730,3 @@ textarea {
 }
 
 
-/* =========================================
-   AUTO SLIDE ANIMATION
-   ========================================= */
-
-@keyframes project-slide {
-
-  /* Image 1 */
-  0% {
-    transform: translateX(0);
-  }
-
-  40% {
-    transform: translateX(0);
-  }
-
-  /* Move to image 2 */
-  50% {
-    transform: translateX(-50%);
-  }
-
-  /* Stay on image 2 */
-  90% {
-    transform: translateX(-50%);
-  }
-
-  /* Return to image 1 */
-  100% {
-    transform: translateX(0);
-  }
-
-}
-
-@-webkit-keyframes wheel {
-  to {
-    opacity: 0;
-    top: 27px; } }
