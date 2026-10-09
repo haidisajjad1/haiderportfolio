@@ -822,7 +822,7 @@ textarea {
   padding: 3rem 2.5rem;
 }
 
-/* image-only slides */
+/* /* image-only slides */
 .hero-slide {
   display: flex;
   justify-content: center;
@@ -848,4 +848,4 @@ textarea {
   .hero-slide__img {
     height: 22rem;
   }
-}
+} */
