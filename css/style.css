@@ -817,22 +817,25 @@ textarea {
   z-index: 1;
 }
 
-/* border around the hero slider */
+/* border around the slider */
 .hero-slider__track {
   border: 2px solid rgba(255, 255, 255, 0.6);
   border-radius: 10px;
-  padding: 3rem 2.5rem;
+  padding: 2.5rem;
 }
 
-/* /* image-only slides */
+/* centre each slide's image inside the border */
 .hero-slide {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
+/* the image box scales with the screen */
 .hero-slide__img-cont {
   width: 100%;
-  max-width: 70rem;
+  aspect-ratio: 16 / 9;
+  max-height: 55vh;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
@@ -840,17 +843,11 @@ textarea {
 
 .hero-slide__img {
   width: 100%;
-  height: 32rem;
+  height: 100%;
   object-fit: cover;
   object-position: center;
   display: block;
 }
-
-@media only screen and (max-width: 56.25em) {
-  .hero-slide__img {
-    height: 22rem;
-  }
-} */
 
 /* let the hero grow with its content and clear the navbar */
 .home-hero {
@@ -867,3 +864,10 @@ textarea {
   transform: none;
   margin: 0 auto;
 }
+
+@media only screen and (max-width: 37.5em) {
+  .home-hero__content {
+    padding: 0;
+  }
+}
+
