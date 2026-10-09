@@ -494,7 +494,7 @@ textarea {
           margin: 0; } }
 
 .header {
-  position: fixed;
+  position: absolute;
   width: 100%;
   z-index: 1000;
   background: #000;
