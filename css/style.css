@@ -504,10 +504,12 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 5rem; }
+    padding: 1rem 5rem;
+    margin: 1.5rem 0; }
     @media only screen and (max-width: 56.25em) {
       .header__content {
-        padding: 0 2rem; } }
+        padding: 0 2rem;
+        margin: 0;} }
   .header__logo-container {
     display: flex;
     align-items: center;
