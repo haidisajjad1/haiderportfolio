@@ -191,7 +191,7 @@ textarea {
   min-height: 80rem;
   max-height: 120rem;
   position: relative; 
-  margin: 1rem 0}
+  margin: 1rem 0;}
   @media only screen and (max-width: 37.5em) {
     .home-hero {
       height: unset;
