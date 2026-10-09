@@ -851,3 +851,19 @@ textarea {
     height: 22rem;
   }
 } */
+
+/* let the hero grow with its content and clear the navbar */
+.home-hero {
+  height: auto;
+  min-height: 100vh;
+  max-height: none;
+  padding: 14rem 0 8rem;
+}
+
+.home-hero__content {
+  position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
+  margin: 0 auto;
+}
