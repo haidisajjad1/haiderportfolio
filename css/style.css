@@ -729,4 +729,69 @@ textarea {
   object-fit: cover;
 }
 
+/* =========================================
+   HERO SLIDER
+   ========================================= */
 
+.hero-slider__track {
+  display: grid; /* every slide sits in the same cell, so the height = tallest slide */
+}
+
+.hero-slide {
+  grid-area: 1 / 1;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.8s ease, visibility 0.8s;
+}
+
+.hero-slide--active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hero-slider__controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.hero-slider__arrow {
+  width: 4.4rem;
+  height: 4.4rem;
+  border-radius: 50%;
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 1.8rem;
+  transition: background 0.3s, color 0.3s, transform 0.3s;
+}
+
+.hero-slider__arrow:hover {
+  background: #fff;
+  color: #0062b9;
+  transform: scale(1.1);
+}
+
+.hero-slider__dots {
+  display: flex;
+  gap: 1rem;
+}
+
+.hero-slider__dot {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  transition: background 0.3s, transform 0.3s;
+}
+
+.hero-slider__dot:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.hero-slider__dot--active {
+  background: #fff;
+  transform: scale(1.3);
+}
