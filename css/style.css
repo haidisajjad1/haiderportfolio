@@ -821,3 +821,31 @@ textarea {
   border-radius: 10px;
   padding: 3rem 2.5rem;
 }
+
+/* image-only slides */
+.hero-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-slide__img-cont {
+  width: 100%;
+  max-width: 70rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.hero-slide__img {
+  width: 100%;
+  height: 32rem;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .hero-slide__img {
+    height: 22rem;
+  }
+}
