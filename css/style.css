@@ -812,3 +812,10 @@ textarea {
   box-shadow: 0 8px 20px rgba(0, 98, 185, 0.35);
   z-index: 1;
 }
+
+/* border around the hero slider */
+.hero-slider {
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  padding: 3rem 2.5rem;
+}
