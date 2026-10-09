@@ -509,7 +509,7 @@ textarea {
     @media only screen and (max-width: 56.25em) {
       .header__content {
         padding: 0 2rem;
-        margin: 0;} }
+        margin: 1rem 0;} }
   .header__logo-container {
     display: flex;
     align-items: center;
