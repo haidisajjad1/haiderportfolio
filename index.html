@@ -80,84 +80,81 @@
         </div>
       </div>
     </header>
+
     <section class="home-hero">
       <div class="home-hero__content">
+        <div class="home-hero__row" style="display: flex; align-items: center; justify-content: space-between; gap: 4rem; flex-wrap: wrap;">
+          
+          <!-- Left Column: Heading, Intro Text, and CTA -->
+          <div class="home-hero__left" style="flex: 1; min-width: 300px;">
+            <h1 class="heading-primary">Hey, My name is Muhammad Haider Sajjad</h1>
+            
+            <div class="hero-intro" style="margin-top: 1.5rem;">
+              <p class="text-primary">
+                I am a Year 12 student at Ilford County High School with a strong interest in engineering, design and mathematics. I am experienced in 3D modelling, prototyping, and 3D printing through school and personal projects. I am keen to further develop practical engineering and problem-solving skills
+              </p>
+            </div>
 
-   <br>
-    
-  <h1 class="heading-primary">Hey, My name is Muhammad Haider Sajjad</h1>
+            <div class="home-hero__cta" style="margin-top: 2rem;">
+              <a href="./#projects" class="btn btn--bg">Projects</a>
+            </div>
+          </div>
 
-  <div class="hero-slider">
-    <div class="home-hero__info hero-intro">
-      <p class="text-primary">
-        I am a Year 12 student at Ilford County High School with a strong interest in engineering, design and mathematics. I am experienced in 3D modelling, prototyping, and 3D printing through school and personal projects. I am keen to further develop practical engineering and problem-solving skills
-      </p>
-    </div>
+          <!-- Right Column: Image Slider -->
+          <div class="home-hero__right" style="flex: 1; min-width: 300px;">
+            <div class="hero-slider">
+              <div class="hero-slider__track">
+                <!-- Slide 1 -->
+                <div class="hero-slide hero-slide--active">
+                  <div class="hero-slide__img-cont">
+                    <img src="./project-images/studypod.jpeg" alt="Nookly Study Pod project" class="hero-slide__img" />
+                  </div>
+                </div>
+                
+                <!-- Slide 2 -->
+                <div class="hero-slide">
+                  <div class="hero-slide__img-cont">
+                    <img src="./project-images/ironman-helmet.jpeg" alt="Iron Man helmet project" class="hero-slide__img" />
+                  </div>
+                </div>
 
-    <br>
-    
-    <div class="hero-slider__track">
+                <!-- Slide 3 -->
+                <div class="hero-slide">
+                  <div class="hero-slide__img-cont">
+                    <img src="./project-images/Turret.jpeg" alt="A rubber band turret mechanism" class="hero-slide__img" />
+                  </div>
+                </div>
+              </div>
 
-      <!-- Slide 1 -->
-      <div class="hero-slide hero-slide--active">
-        <div class="hero-slide__img-cont">
-          <img src="./project-images/studypod.jpeg" alt="Nookly Study Pod project" class="hero-slide__img" />
+              <div class="hero-slider__controls">
+                <button class="hero-slider__arrow" id="heroPrev" aria-label="Previous slide">&#10094;</button>
+                <div class="hero-slider__dots">
+                  <button class="hero-slider__dot hero-slider__dot--active" data-slide="0" aria-label="Go to slide 1"></button>
+                  <button class="hero-slider__dot" data-slide="1" aria-label="Go to slide 2"></button>
+                  <button class="hero-slider__dot" data-slide="2" aria-label="Go to slide 3"></button>
+                </div>
+                <button class="hero-slider__arrow" id="heroNext" aria-label="Next slide">&#10095;</button>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
-      
-      <!-- Slide 2 -->
-      <div class="hero-slide">
-        <div class="hero-slide__img-cont">
-          <img src="./project-images/ironman-helmet.jpeg" alt="Iron Man helmet project" class="hero-slide__img" />
-        </div>
-      </div>
 
-      <!-- Slide 3 -->
-      <div class="hero-slide">
-        <div class="hero-slide__img-cont">
-          <img src="./project-images/Turret.jpeg" alt="A rubber band turret mechanism" class="hero-slide__img" />
-        </div>
-      </div>
-
-    </div>
-
-    <div class="hero-slider__controls">
-      <button class="hero-slider__arrow" id="heroPrev" aria-label="Previous slide">&#10094;</button>
-      <div class="hero-slider__dots">
-        <button class="hero-slider__dot hero-slider__dot--active" data-slide="0" aria-label="Go to slide 1"></button>
-        <button class="hero-slider__dot" data-slide="1" aria-label="Go to slide 2"></button>
-        <button class="hero-slider__dot" data-slide="2" aria-label="Go to slide 3"></button>
-      </div>
-      <button class="hero-slider__arrow" id="heroNext" aria-label="Next slide">&#10095;</button>
-    </div>
-  </div>
-
-  <div class="home-hero__cta">
-    <a href="./#projects" class="btn btn--bg">Projects</a>
-  </div>
-</div>
       <div class="home-hero__socials">
         <div class="home-hero__social">
           <a href="https://www.linkedin.com/in/muhammad-haider-sajjad-47721a3b9/" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/linkedin-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
+            <img src="./assets/png/linkedin-ico.png" alt="icon" class="home-hero__social-icon" />
           </a>
         </div>
         <div class="home-hero__social">
           <a href="https://github.com/haidisajjad1" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/github-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
+            <img src="./assets/png/github-ico.png" alt="icon" class="home-hero__social-icon" />
           </a>
         </div>
-      </div>   <!-- ADD THIS LINE to close home-hero__socials -->
-     
+      </div>
     </section>
+
     <section id="about" class="about sec-pad">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
