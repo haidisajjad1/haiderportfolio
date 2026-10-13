@@ -737,8 +737,13 @@ textarea {
    HERO SLIDER
    ========================================= */
 
+/* Remove the extra padding and let the track fit the image tightly */
 .hero-slider__track {
-  display: grid; /* every slide sits in the same cell, so the height = tallest slide */
+  display: grid;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  padding: 0; /* Changed from 2.5rem to 0 to remove the gap */
+  overflow: hidden;
 }
 
 .hero-slide {
@@ -831,15 +836,14 @@ textarea {
   align-items: center;
 }
 
-/* Controls the actual box size (portrait ratio for phone photos) */
+/* Controls the actual box size for portrait phone images */
 .hero-slide__img-cont {
   width: 300px;
-  height: 440px;
+  height: 420px;
   max-width: 100%;
-  border-radius: 10px;
+  border-radius: 0; /* Remove inner border radius since the track has it */
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
-  margin: 0 auto;
+  box-shadow: none; /* Shadow is handled by the track or container */
 }
 
 /* Makes the image fill the portrait box */
