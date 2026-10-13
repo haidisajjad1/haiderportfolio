@@ -833,8 +833,8 @@ textarea {
 
 /* Controls the actual box size */
 .hero-slide__img-cont {
-  width: 850px;
-  height: 480px;
+  width: 420px; /* Changed from 850px to a smaller, balanced width */
+  height: 300px; /* Adjusted height to match nicely */
   max-width: 100%;
   border-radius: 10px;
   overflow: hidden;
