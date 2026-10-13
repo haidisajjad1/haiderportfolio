@@ -857,9 +857,9 @@ textarea {
 /* let the hero grow with its content and clear the navbar */
 .home-hero {
   height: auto;
-  min-height: unset; /* Removes the forced full-screen height */
+  min-height: unset;
   max-height: none;
-  padding: 8rem 0;   /* Balanced top and bottom padding */
+  padding: 12rem 0 8rem; /* Increased top padding from 8rem to 12rem */
 }
 
 .home-hero__content {
