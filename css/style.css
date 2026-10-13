@@ -859,7 +859,7 @@ textarea {
   height: auto;
   min-height: unset;
   max-height: none;
-  padding: 12rem 0 8rem; /* Increased top padding from 8rem to 12rem */
+  padding: 14rem 0 8rem; /* Increased top padding from 8rem to 12rem */
 }
 
 .home-hero__content {
