@@ -831,21 +831,22 @@ textarea {
   align-items: center;
 }
 
-/* Controls the actual box size */
+/* Controls the actual box size (portrait ratio for phone photos) */
 .hero-slide__img-cont {
-  width: 420px; /* Changed from 850px to a smaller, balanced width */
-  height: 300px; /* Adjusted height to match nicely */
+  width: 350px;
+  height: 480px; /* Taller height to match phone photos */
   max-width: 100%;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  margin: 0 auto;
 }
 
-/* Makes the image fill the box */
+/* Makes the image fill the portrait box */
 .hero-slide__img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover; /* Change to 'contain' if you want to see the whole image without any cropping */
   display: block;
 }
 
