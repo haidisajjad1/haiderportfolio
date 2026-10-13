@@ -833,8 +833,8 @@ textarea {
 
 /* Controls the actual box size (portrait ratio for phone photos) */
 .hero-slide__img-cont {
-  width: 350px;
-  height: 480px; /* Taller height to match phone photos */
+  width: 300px;
+  height: 440px;
   max-width: 100%;
   border-radius: 10px;
   overflow: hidden;
@@ -846,7 +846,7 @@ textarea {
 .hero-slide__img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Change to 'contain' if you want to see the whole image without any cropping */
+  object-fit: contain; /* Change to 'contain' if you want to see the whole image without any cropping */
   display: block;
 }
 
